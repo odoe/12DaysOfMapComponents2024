@@ -1,0 +1,19 @@
+{
+  "name": "12daysofchristmas2024",
+  "version": "1.0.0",
+  "scripts": {
+    "day1": "npm run start --workspace @12days-mapcomps/day1",
+    "day2": "npm run start --workspace @12days-mapcomps/day2",
+    "day3": "npm run start --workspace @12days-mapcomps/day3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "workspaces": [
+    "./apps/*"
+  ],
+  "devDependencies": {
+    "vite": "^6.0.3"
+  }
+}
