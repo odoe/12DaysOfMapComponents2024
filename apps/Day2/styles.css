@@ -1,0 +1,15 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+/* Ensure both containers share space equally */
+#map1,
+#map2 {
+  height: 100%;
+  width: 50%;
+}
