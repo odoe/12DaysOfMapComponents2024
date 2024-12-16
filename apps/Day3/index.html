@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12 Days of Map Components: Day 3</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://js.arcgis.com/calcite-components/2.13.2/calcite.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script
+      type="module"
+      src="https://js.arcgis.com/calcite-components/2.13.2/calcite.esm.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://js.arcgis.com/4.31/esri/themes/dark/main.css"
+    />
+    <script>
+      window.esriConfig = {
+        portalUrl: "https://www.arcgis.com",
+      };
+    </script>
+    <script src="https://js.arcgis.com/4.31/"></script>
+    <script
+      type="module"
+      src="https://js.arcgis.com/map-components/4.31/arcgis-map-components.esm.js"
+    ></script>
+  </head>
+
+  <body>
+    <arcgis-map item-id="bbebcc87fa704dc3a505050fb1bb52f5">
+      <arcgis-legend position="bottom-left"></arcgis-legend>
+      <arcgis-placement position="top-right">
+        <calcite-card>
+          <span slot="heading">Traffic Map</span>
+          <span slot="description"
+            >Department of Transportation - Municipality of Acme</span
+          >
+          <div slot="footer-start">
+            <calcite-chip
+              value="calcite chip"
+              kind="brand"
+              icon="clock-forward"
+            >
+              Recent
+            </calcite-chip>
+          </div>
+          <div slot="footer-end">
+            <calcite-chip value="calcite chip" icon="walking">
+              Recreation
+            </calcite-chip>
+          </div>
+        </calcite-card>
+      </arcgis-placement>
+    </arcgis-map>
+  </body>
+</html>
