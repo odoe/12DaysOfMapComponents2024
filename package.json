@@ -4,7 +4,8 @@
   "scripts": {
     "day1": "npm run start --workspace @12days-mapcomps/day1",
     "day2": "npm run start --workspace @12days-mapcomps/day2",
-    "day3": "npm run start --workspace @12days-mapcomps/day3"
+    "day3": "npm run start --workspace @12days-mapcomps/day3",
+    "day4": "npm run start --workspace @12days-mapcomps/day4"
   },
   "keywords": [],
   "author": "",
@@ -17,3 +18,4 @@
     "vite": "^6.0.3"
   }
 }
+
