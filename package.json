@@ -5,7 +5,8 @@
     "day1": "npm run start --workspace @12days-mapcomps/day1",
     "day2": "npm run start --workspace @12days-mapcomps/day2",
     "day3": "npm run start --workspace @12days-mapcomps/day3",
-    "day4": "npm run start --workspace @12days-mapcomps/day4"
+    "day4": "npm run start --workspace @12days-mapcomps/day4",
+    "day5": "npm run start --workspace @12days-mapcomps/day5"
   },
   "keywords": [],
   "author": "",
@@ -18,4 +19,3 @@
     "vite": "^6.0.3"
   }
 }
-

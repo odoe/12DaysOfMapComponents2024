@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12 Days of Map Components: Day 5</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://js.arcgis.com/calcite-components/2.13.2/calcite.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script
+      type="module"
+      src="https://js.arcgis.com/calcite-components/2.13.2/calcite.esm.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://js.arcgis.com/4.31/esri/themes/dark/main.css"
+    />
+    <script src="https://js.arcgis.com/4.31/"></script>
+    <script
+      type="module"
+      src="https://js.arcgis.com/map-components/4.31/arcgis-map-components.esm.js"
+    ></script>
+  </head>
+
+  <body class="calcite-mode-dark">
+    <calcite-shell>
+      <arcgis-map basemap="dark-gray-vector" zoom="6" center="-119.522, 37.447">
+        <arcgis-placement position="top-right">
+          <calcite-card id="card">
+            <span slot="heading">Info</span>
+            <span slot="description">Scale|Extent|Center</span>
+            <pre>
+              <code id="code"></code>
+            </pre>
+          </calcite-card>
+        </arcgis-placement>
+      </arcgis-map>
+    </calcite-shell>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
