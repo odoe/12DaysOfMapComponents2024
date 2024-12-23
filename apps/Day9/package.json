@@ -1,0 +1,12 @@
+{
+  "name": "@12days-mapcomps/day9",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
+

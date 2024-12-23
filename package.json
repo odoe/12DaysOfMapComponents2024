@@ -9,7 +9,8 @@
     "day5": "npm run start --workspace @12days-mapcomps/day5",
     "day6": "npm run start --workspace @12days-mapcomps/day6",
     "day7": "npm run start --workspace @12days-mapcomps/day7",
-    "day8": "npm run start --workspace @12days-mapcomps/day8"
+    "day8": "npm run start --workspace @12days-mapcomps/day8",
+    "day9": "npm run start --workspace @12days-mapcomps/day9"
   },
   "keywords": [],
   "author": "",

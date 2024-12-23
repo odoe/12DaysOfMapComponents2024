@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12 Days of Map Components: Day 9</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://js.arcgis.com/calcite-components/2.13.2/calcite.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script
+      type="module"
+      src="https://js.arcgis.com/calcite-components/2.13.2/calcite.esm.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://js.arcgis.com/4.31/esri/themes/dark/main.css"
+    />
+    <script src="https://js.arcgis.com/4.31/"></script>
+    <script
+      type="module"
+      src="https://js.arcgis.com/map-components/4.31/arcgis-map-components.esm.js"
+    ></script>
+  </head>
+
+  <body class="calcite-mode-dark">
+    <calcite-shell>
+      <calcite-shell-panel
+        slot="panel-start"
+        position="start"
+        id="shell-panel-start"
+        display-mode="float"
+      >
+        <calcite-action-bar slot="action-bar">
+          <calcite-action text="Layers" icon="layers"></calcite-action>
+          <calcite-action text="Legend" icon="legend"></calcite-action>
+        </calcite-action-bar>
+        <calcite-panel heading="Layers" id="panel-layers">
+          <arcgis-layer-list reference-element="map"></arcgis-layer-list>
+        </calcite-panel>
+        <calcite-panel heading="Legend" id="panel-legend" hidden>
+          <arcgis-legend reference-element="map"></arcgis-legend>
+        </calcite-panel>
+      </calcite-shell-panel>
+      <calcite-panel id="appHeading" heading="Content">
+        <arcgis-map id="map" item-id="d5dda743788a4b0688fe48f43ae7beb9">
+        </arcgis-map>
+      </calcite-panel>
+    </calcite-shell>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
