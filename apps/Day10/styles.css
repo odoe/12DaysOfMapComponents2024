@@ -1,0 +1,19 @@
+html,
+body {
+  background-color: var(--calcite-ui-foreground-2);
+  padding: 0;
+  margin: 0;
+  width: 100svw;
+  height: 100svh;
+}
+
+calcite-loader {
+  align-self: center;
+  justify-self: center;
+  z-index: 1000;
+}
+
+arcgis-map {
+  width: 100%;
+  height: 100%;
+}
